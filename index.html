@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marine Pollution</title>
+  <meta name="description" content="The Ocean is a treasure. We're it's weakness.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- normalize -->
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+
+  <!-- poppins font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- style sheet link -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div id="nav">
+      <nav>
+
+        <a id="About" href="about/">About</a>
+        <a id="Home">Home</a>
+        <a id="Form" href="form/">Form</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <div class="Container">
+    <picture>
+      <source srcset="images/hero2-1600.jpg" media="(min-width: 901px)">
+      <source srcset="images/hero2-900.jpg" media="(min-width: 501px)">
+      <source srcset="images/hero2-600.jpg" media="(max-width: 500px)">
+
+      <img src="images/hero2-900.jpg" alt="the path to the water" loading="lazy">
+    </picture>
+    <div class="header">
+      <h1>
+        Keep the ocean clean forever.
+      </h1>
+      <p class="headerp">Our contribution to the seas.</p>
+      <a class="button1" href="#">Learn more</a>
+    </div>
+  </div>
+
+
+  <main>
+
+
+    <article class="panel">
+      <div id="First">
+        <h2 id="TimeforChange">
+          The time for change is now.
+        </h2>
+        <p class="decade">
+          For decades we have polluted our oceans, unaware of the consequences that we would later face. Decades of
+          destruction now require decades of repair as the world begins to understand the impact of our tendencies.
+        </p>
+      </div>
+      <img id="Trash" src="images/firstimage.jpg" alt="marinetrash" loading="lazy">
+    </article>
+
+
+
+    <aside>
+      <div class="full-width">
+        <h2 class="asidetext">an ocean without waste.</h2>
+      </div>
+    </aside>
+
+    <article>
+      <div id="article1">
+        <h2 id="effort">An ongoing effort</h2>
+
+        <p id="Organizationsleadin">Currently, there are <em>several organizations</em> dedicated to cleaning our
+          oceans:
+        </p>
+        <ul id="foundations">
+          <li><a id="Surfrider" href="https://www.surfrider.org/">Surfrider Foundation:</a>
+            <ul>
+              <li>Surfrider's powerful grassroots network works to <strong>protect coasts and
+                  oceans</strong> by
+                supporting
+                water quality
+                testing, community partnerships, beach cleanups, and more. </li>
+            </ul>
+          </li>
+          <li><a id="OceanConserv" href="https://oceanconservancy.org/">Ocean Conservancy:</a>
+            <ul>
+              <li>The conservancy's current programs include supporting sustainable fisheries, working to combat ocean
+                acidification, and restoring the Gulf of Mexico.</li>
+            </ul>
+          </li>
+          <li><a id="Oceana" href="https://oceana.org/">Oceana:</a>
+            <ul>
+              <li>Since 2001, Oceana has advocated for policy change using science-backed platforms in fishery
+                management,
+                clean energy, and much more.</li>
+            </ul>
+          </li>
+          <li><a id="LonelyWhale" href="https://www.lonelywhale.org/">Lonely Whale Foundation:</a>
+            <ul>
+              <li>The Foundation has started the #StopSucking campaign to educate people about the perils of one-use
+                plastic
+                straws in the ocean and ultimately to stop using them.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- CARDS -->
+        <div class="cards">
+          <div class="card">
+            <div class="card1"><a href="#"><img src="images/surfridercard.jpg" alt="surfstuff" loading="lazy"></a>
+              <div class="surfcardtext">
+                <h3>Surfrider</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card2"><a href="#"><img src="images/lonelywhalecard.jpg" alt="whalestuff" loading="lazy"></a>
+              <div class="lonelywhalecardtext">
+                <h3>LonelyWhale</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card3"><a href="#"><img src="images/oceanacard.jpg" alt="oceanastuff" loading="lazy"></a>
+              <div class="oceanacardtext">
+                <h3>Oceana</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card4"><a href="#"><img src="images/oceanconserv.jpg" alt="oceanstuff" loading="lazy"></a>
+              <div class="oceanconservcardtext">
+                <h3>Ocean Conservancy</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--be sure to add more cleanup organizations to the list as you come across them.-->
+        <a class="button2" href="#">Donate</a>
+      </div>
+      <!-- END CARDS -->
+    </article>
+
+
+
+    <article id="terms">
+      <div id="termsheader">
+        <h3>Terms you should know</h3>
+      </div>
+      <div id="termsparagraph">
+        <p>Educating yourself is the first step in protecting our oceans:</p>
+        <dl>
+          <dt>Capture</dt>
+          <dd>Catch large amounts of plastic within marine environments.</dd>
+          <dt>Accumulation</dt>
+          <dd>Properly store captured materials in the most efficient way.</dd>
+          <dt>Extraction</dt>
+          <dd>Extract waste from the worksite.</dd>
+          <dt>Recycling</dt>
+          <dd>Make use of materials. Catch, rinse, recycle and repeat - until the oceans are clean.</dd>
+        </dl>
+        <a class="button" href="#">Learn more</a>
+      </div>
+
+    </article>
+
+  </main>
+
+
+  <img id="surfers" src="images/surfers.jpg" alt="footersurfers" loading="lazy">
+  <footer>
+    <strong>Get out there and make a difference.</strong>
+    <p>a world of opportunity awaits</p>
+  </footer>
+
+</body>
+
+</html>
